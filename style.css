@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(182, 184, 185);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.histoire, .tableau, figure, .protocole, .www, .specification, .code {
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;  
+    font-size: 5.5rem; 
+    text-align: center; 
+
+}
+/*Le style css pour la section histoire*/
+.histoire #contain #w3, .www #contain #w3 {
+    color: red;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/*Style pour la section tableau*/
+.tableau table {
+    border-collapse: collapse;
+    
+}
+.tableau h2, .protocole h2 {
+    color: rgb(224, 5, 5);
+    font-family: fantasy;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.tableau table thead tr{
+    background-color: rgb(82, 80, 80);
+    color: white;
+    height: 40px;
+}
+.tableau table tbody tr {
+   height: 40px;
+}
+.tableau table tbody .pair {
+    background-color: rgb(202, 205, 206);
+}
+.tableau table tbody tr:hover {
+    background-color: rgba(71, 69, 69, 0.5);
+    cursor: pointer;
+}
+.tableau table tbody tr .year {
+    font-weight: bold;
+}
+
+/*Style pour la figure*/
+figure {
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    text-align: center;
+}
+figure img{
+    width: 90%;
+    margin-top: 5%;   
+    margin-bottom: 7px;
+}
+figure figcaption {
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+   
+}
+
+/*le style css pour la section protocole*/
+.protocole .role, .code .inside-code {
+    background-color:rgb(165, 161, 161);
+    border: 2px dashed #6100B0;
+    margin: auto;
+    text-align: center;
+    color: #6100B0;
+    text-align: justify;
+    width: 90%;
+    
+}
+.protocole .role .inside-role, .code .inside-code .html {
+    width: 90%;
+    margin: auto;       
+}
+.protocole .role .inside-role p, .code .html {
+   line-height: 2.5rem;
+   font-size: 1.5rem;
+}
